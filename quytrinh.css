@@ -1,0 +1,178 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-size: 1vw;
+}
+
+@media (min-width: 1601px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 4.26666vw;
+  }
+}
+.container {
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background: #f6f4ee;
+}
+.quytrinh_h1 {
+  width: 31.625rem;
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "SVN-Snell Roundhand Script";
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 7.2rem */
+  margin-bottom: 4.06rem;
+}
+.quytrinh_box {
+  position: relative;
+}
+.line_quytrinh_box {
+  width: 0.0625rem;
+  background: #6f5d53;
+  height: calc(100% - 0.95rem);
+  position: absolute;
+  top: 4.71rem;
+  left: 12.85rem;
+  z-index: 9;
+}
+.quytring_item {
+  position: relative;
+  z-index: 9;
+  padding: 1.5rem 0rem;
+  border-bottom: 0.0625rem solid #cab8aa;
+  z-index: calc(100 - var(--indexitem));
+}
+.quytring_item:last-of-type .line_quytrinh_box {
+  display: none;
+}
+.quytring_item:first-of-type {
+  border-top: 0.0625rem solid #cab8aa;
+}
+.quytring_item:hover .quytring_item_index svg {
+  transform: translateY(0);
+}
+.quytring_item:hover .quytring_item_index p {
+  transform: translateY(150%);
+}
+.quytring_item:hover .quytring_item_wapper {
+  background: #eeebe2;
+}
+.quytring_item:hover .circle {
+  background: #6f5d53;
+}
+.quytring_item_wapper {
+  padding: 2.25rem;
+  display: flex;
+  align-items: start;
+  transition: all 0.3s ease;
+}
+.quytring_item_index {
+  width: 6rem;
+  height: 7.1875rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+}
+.quytring_item_index > p {
+  color: var(--PRIMARY-600, #6f5d53);
+  text-align: center;
+  font-family: "Be Vietnam Pro";
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.045rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  transform: translateY(-0.5rem);
+}
+.quytring_item_index > svg {
+  transition: all 0.3s ease;
+  position: absolute;
+  width: 4.0515rem;
+  height: 4.78506rem;
+  transform: translateY(-125%);
+}
+.circle {
+  position: relative;
+  z-index: 10;
+  background: #fffefb;
+  border: 3px solid #6f5d53;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 4.125rem;
+  transition: all 0.3s ease;
+}
+.quytring_item_wapper h2 {
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "Be Vietnam Pro";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 1.875rem */
+  letter-spacing: -0.0125rem;
+  text-transform: uppercase;
+  width: 25rem;
+  height: 6rem;
+  margin-right: 4.125rem;
+}
+.quytring_item_wapper > p {
+  color: var(--PRIMARY-700, #4b3930);
+  text-align: justify;
+  font-family: "Be Vietnam Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+  width: 26.125rem;
+}

@@ -1,0 +1,116 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-size: 1vw;
+}
+
+@media (min-width: 1601px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 4.26666vw;
+  }
+}
+.container {
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thungo_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.58rem;
+}
+.thungo_header_text h1 {
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "SVN-Snell Roundhand Script";
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1.64rem;
+}
+.thungo_header_text p {
+  width: 46.91113rem;
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "Playwrite US Trad";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.25rem; /* 180% */
+  letter-spacing: -0.0125rem;
+}
+.thungo_header_img img {
+  height: 17.8125rem;
+  width: 14.5625rem;
+}
+.thungo_header_img {
+  position: relative;
+}
+.thungo_header_img svg {
+  position: absolute;
+  top: 1.69rem;
+  left: -3.69rem;
+}
+.thungo_content {
+  position: relative;
+  width: 75rem;
+  height: 73.1875rem;
+}
+.thungo_content img {
+  position: absolute;
+  inset: 0;
+}
+.thungo_content_text {
+  width: 71.14844rem;
+  position: absolute;
+  left: 1.39113rem;
+  top: 1.325rem;
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "Playwrite US Trad";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.25rem; /* 200% */
+  letter-spacing: -0.01125rem;
+}

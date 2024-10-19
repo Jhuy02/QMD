@@ -1,0 +1,360 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+  font-size: 1vw;
+}
+
+@media (min-width: 1601px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 4.26666vw;
+  }
+}
+.container {
+  width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gioithieuthuonghieu_title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.25rem;
+}
+.gioithieuthuonghieu_title h2 {
+  color: var(--PRIMARY-600, #6f5d53);
+  text-align: center;
+  font-family: "SVN-Snell Roundhand Script";
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+.gioithieuthuonghieu_title span {
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "Be Vietnam Pro";
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.022rem;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 2.87rem;
+}
+.gioithieuthuonghieu_title p {
+  color: var(--PRIMARY-900, #1b1613);
+  text-align: center;
+  font-family: "Be Vietnam Pro";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.25rem */
+  letter-spacing: -0.015rem;
+  width: 59.96387rem;
+}
+.gioithieu_section2_box {
+  display: flex;
+}
+.gioithieu_section2_box_img {
+  object-fit: cover;
+  width: 49.5625rem;
+  height: 35.875rem;
+  border-top: 1px solid var(--PRIMARY-500, #a8958d);
+  border-bottom: 1px solid var(--PRIMARY-500, #a8958d);
+  border-left: 1px solid var(--PRIMARY-500, #a8958d);
+}
+.gioithieu_section2_box_content {
+  width: 25.4375rem;
+  /* height: 35.875rem; */
+  padding: 1.5rem;
+  gap: 0.625rem;
+  border: 1px solid var(--PRIMARY-500, #a8958d);
+}
+.gioithieu_section2_box_content p {
+  color: var(--PRIMARY-700, #4b3930);
+  text-align: justify;
+  font-family: "Be Vietnam Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+  margin-bottom: 1.5rem;
+}
+.gioithieu_section2_box_content p:last-of-type {
+  margin-bottom: 0;
+}
+.gioithieu_section2_box_content img {
+  margin-top: 2.9rem;
+  width: 18.94119rem;
+  height: 11.453rem;
+}
+.title_sumenhtamnhin {
+  margin-top: 4.62rem;
+  margin-bottom: 2.25rem;
+  width: 100%;
+  text-align: center;
+  color: var(--PRIMARY-600, #6f5d53);
+  font-family: "SVN-Snell Roundhand Script";
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 4.5rem */
+}
+.gioithieu_section2_box_lon .gioithieu_section2_box_img {
+  width: 49.42381rem;
+  height: 35rem;
+  border-top: 1px solid var(--PRIMARY-500, #a8958d);
+  border-bottom: 1px solid var(--PRIMARY-500, #a8958d);
+}
+.congsu_loinoi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.duantieubieu_item {
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  padding: 0.625rem 1.5rem 0.625rem 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 0.5px solid var(--PRIMARY-500, #a8958d);
+}
+.duantieubieu_item:last-child {
+  margin-right: 0;
+}
+.duantieubieu_item {
+  color: var(--PRIMARY-800, #3a2b23);
+  text-align: center;
+  font-family: "Be Vietnam Pro";
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 150%; /* 1.6875rem */
+  letter-spacing: -0.01125rem;
+}
+.list_img_congsu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.list_img_congsu_item {
+  display: flex;
+  height: 17.90675rem;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  border: 1px solid var(--PRIMARY-500, #a8958d);
+}
+.list_img_congsu_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.flex_center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5.84rem;
+}
+.congsu_descripts_btn {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem 0 1rem;
+  background: var(--PRIMARY-700, #4b3930);
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--PRIMARY-600, #6f5d53);
+}
+.congsu_descripts_btn p {
+  color: var(--PRIMARY-50, #fffefb);
+  font-family: "Be Vietnam Pro";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 1.125rem */
+  letter-spacing: -0.0075rem;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+.congsu_descripts_btn svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.camket {
+  background: var(--PRIMARY-800, #3a2b23);
+  display: flex;
+  padding: 5.5rem 0 5.5rem 0;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+.camket_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem 1.5rem;
+}
+.camket_grid_item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.camket_grid_item1 span {
+  color: var(--PRIMARY-200, #eeebe2);
+  font-family: "SVN-Snell Roundhand Script";
+  font-size: 4.684rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.camket_grid_item1 p {
+  color: var(--PRIMARY-50, #fffefb);
+  font-family: "Be Vietnam Pro";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.03rem;
+  text-transform: uppercase;
+}
+.camket_grid_item {
+  width: 24rem;
+  border: 1px solid var(--PRIMARY-500, #a8958d);
+}
+.camket_grid_item_icon {
+  display: flex;
+  padding: 1rem 1rem 0rem 1rem;
+  align-items: center;
+}
+.camket_grid_item_icon svg {
+  width: 4.33325rem;
+  height: 5.08194rem;
+}
+.camket_grid_item_content {
+  padding: 1rem;
+}
+.camket_grid_item_content span {
+  color: var(--PRIMARY-200, #eeebe2);
+  font-family: "Be Vietnam Pro";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 1.875rem */
+  letter-spacing: -0.0125rem;
+}
+.camket_grid_item_content p {
+  color: var(--PRIMARY-50, #fffefb);
+  text-align: justify;
+  font-family: "Be Vietnam Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+  margin-top: 1rem;
+  min-height: 6rem;
+}
+.h2_dichvu {
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "SVN-Snell Roundhand Script";
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1.5rem;
+  padding-top: 3.38rem;
+}
+.dichvu_box {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--PRIMARY-500, #a8958d);
+}
+.dichvu_box_img {
+  padding: 2.75rem 0.8125rem 2.625rem 2.3125rem;
+}
+.dichvu_box_img img {
+  width: 34.25rem;
+  height: 22.3125rem;
+  object-fit: cover;
+}
+.dichvu_box_content {
+  display: flex;
+  width: 37.6875rem;
+  height: 20.6875rem;
+  padding: 0 2.25rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.dichvu_box_content .congsu_descripts_btn {
+  width: 9.5rem;
+}
+.dichvu_box_content_text span {
+  color: var(--PRIMARY-700, #4b3930);
+  font-family: "Be Vietnam Pro";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 2.25rem */
+  letter-spacing: -0.015rem;
+}
+.dichvu_box_content_text p {
+  color: var(--PRIMARY-700, #4b3930);
+  text-align: justify;
+  font-family: "Be Vietnam Pro";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 1.5rem */
+  letter-spacing: -0.01rem;
+  margin-top: 1rem;
+}
